@@ -1,13 +1,8 @@
 {
   "name": "frontend",
   "version": "1.0.0",
-<<<<<<< HEAD
   "description": "",
   "main": "index.js",
-=======
-  "description": "index.js",
-  "main": "",
->>>>>>> dfabe3f1a4d7d4ba756ac166507b2ac6b3828594
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel index.html"
