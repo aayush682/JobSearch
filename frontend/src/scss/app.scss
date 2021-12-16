@@ -1,0 +1,35 @@
+header {
+    padding: 100px;
+    margin: auto;
+    background-size: cover;
+    background-image: url(../img/business.jpg);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+
+    h2 { 
+        font-size: 2rem;
+    }
+
+    form {
+        margin: auto; 
+        margin-top: 50px;
+        max-width: 400px;
+        align-items: center;
+    }
+}
+
+.card {
+    margin: 25px 0;
+}
+
+.loading-element {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    display: none;
+    &.loading {
+        display: block;
+    }
+}
+    

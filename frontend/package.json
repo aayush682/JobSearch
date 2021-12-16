@@ -1,0 +1,20 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "^2.0.1"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.1",
+    "sass": "^1.22.12"
+  }
+}
