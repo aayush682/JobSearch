@@ -6,7 +6,7 @@
   "scripts": {
     "start": "concurrently \"node api/index.js\" \"parcel frontend/index.html — open\"",
     "build": "parcel frontend/index.html",
-    "heroku-postbuild" : "parcel frontend/index.html"
+    "heroku-postbuild" : " npm start && parcel frontend/index.html"
   },
   "author": "",
   "license": "ISC",
